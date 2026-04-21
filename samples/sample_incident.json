@@ -1,0 +1,16 @@
+{
+  "tenant_id": "tenant_001",
+  "correlation_id": "corr_001",
+  "alert": {
+    "incident_id": "inc_123",
+    "title": "High API Latency",
+    "description": "API response time exceeded threshold",
+    "source": "monitoring_system",
+    "signals": ["latency_spike", "error_rate_increase"],
+    "metrics": {
+      "latency": 1200,
+      "threshold": 500
+    },
+    "severity": "high"
+  }
+}
